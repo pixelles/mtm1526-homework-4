@@ -1,18 +1,40 @@
-#tab-content {
-	overflow: hidden;
-	width: 100px;
-	height: 100px;
-	background-color: red;
+.tab-content {
+	margin: 0px;
+	padding: 0px;
+
+	width: 452px;
+	height: 250px;
+	background-color: blue;
+	position: relative;
 }
 
-#one, #two, #three, #four {
-	overflow: hidden;
-	width: 100px;
-	height: 100px;
-	background-color: blue;
+.tab-content div {
+	margin: 0px;
+	padding: 0px;
+	display: block;
+	width: 452px;
+	height: 250px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	
 }
 
 .current {
-	z-index: 500;
 	background-color:red ;
+	font-size: 36px;
+	z-index: 100;
+}
+
+nav ol li {
+	width: 100px;
+	margin: 0px;
+	padding: 5px;
+	display: inline-block;
+	background-color: pink;
+}
+
+ol {
+	margin: 0px;
+	padding: 0px;
 }
