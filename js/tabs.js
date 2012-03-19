@@ -1,16 +1,14 @@
 $(document).ready(function() {
 	
 	$('.tabs a').on('click', function(ev){
-		var currentTab = $(this).attr('href');		
-		var clicked = $(this).attr('href');
+		var currentTab = $(this).attr('href');
+			
+	
+		$('.tab-content .current').removeClass('current');		
 		
-		$('.current').slideUp(300);
-		$('.current').removeClass('current');
-		$(currentTab).removeClass('current');
-		$(currentTab).addClass('current');
-		
-		if(currentTab == clicked){
-			$(clicked).slideDown(300);
-		}
+		$('.tab-content div:not(.current)').hide(300);
+		$(currentTab).addClass('current').show(300);	
+
 	});
 });
+
