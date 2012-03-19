@@ -13,5 +13,6 @@
 }
 
 .current {
+	z-index: 500;
 	background-color:red ;
 }
