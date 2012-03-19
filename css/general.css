@@ -1,0 +1,17 @@
+#tab-content {
+	overflow: hidden;
+	width: 100px;
+	height: 100px;
+	background-color: red;
+}
+
+#one, #two, #three, #four {
+	overflow: hidden;
+	width: 100px;
+	height: 100px;
+	background-color: blue;
+}
+
+.current {
+	background-color:red ;
+}
